@@ -1,6 +1,6 @@
 {
     "name": "webpack-integration-plugin",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Bobsans <mr.bobsans@gmail.com>",
     "description": "Webpack plugin to provide integration with other frameworks",
     "license": "MIT",
@@ -18,6 +18,7 @@
     "bugs": {
         "url": "https://github.com/Bobsans/webpack-integration-plugin/issues"
     },
+    "main": "index.js",
     "scripts": {
         "test": "mocha --recursive ./test/*.spec.js"
     },

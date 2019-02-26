@@ -67,7 +67,7 @@ class WebpackIntegrationPlugin {
     }
 
     writeOutput(compiler, contents) {
-        let outputFilename = path.join(this.options.path || compiler.options.output.path, this.options.filename);
+        let outputFilename = path.join(this.options.path || compiler.options.output.path || '.', this.options.filename);
 
         mkdirp.sync(path.dirname(outputFilename));
 

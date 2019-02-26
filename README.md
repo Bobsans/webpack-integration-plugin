@@ -63,3 +63,5 @@ module.exports = {
 ## Changelog
 * __v0.0.1__ (_26.02.2019_)
     * Development start 
+* __v0.0.2__ (_26.02.2019_)
+    * Small fixes
