@@ -1,0 +1,41 @@
+{
+    "name": "webpack-integration-plugin",
+    "version": "0.0.1",
+    "author": "Bobsans <mr.bobsans@gmail.com>",
+    "description": "Webpack plugin to provide integration with other frameworks",
+    "license": "MIT",
+    "keywords": [
+        "webpak",
+        "plugin",
+        "integration",
+        "dajngo",
+        "framework"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Bobsans/webpack-integration-plugin"
+    },
+    "bugs": {
+        "url": "https://github.com/Bobsans/webpack-integration-plugin/issues"
+    },
+    "scripts": {
+        "test": "mocha --recursive ./test/*.spec.js"
+    },
+    "dependencies": {
+        "mkdirp": "^0.5.1",
+        "strip-ansi": "^5.0.0",
+        "deep-extend": "^0.6.0",
+        "webpack": "^4.10.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.4",
+        "babel-loader": "^8.0.5",
+        "chai": "^4.2.0",
+        "css-loader": "^2.1.0",
+        "mini-css-extract-plugin": "^0.5.0",
+        "mocha": "^6.0.2"
+    },
+    "peerDependencies": {
+        "webpack": "^4.0.0"
+    }
+}
